@@ -1,0 +1,48 @@
+  .nav_head{
+    background-color: white;
+    width: 16.3%;
+    position:fixed;
+    height: 100%;
+  }
+  .imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  img{
+    width: 33%;
+  }
+  .nav_list {
+    margin: 2% 2% 2% 4%;
+    padding: 8% 0 8% 0;
+    font-family: 'poppins';
+    font-size: 20px;
+    color: rgb(21, 118, 151);
+    cursor: pointer;
+  }
+  @media screen and (max-width: 1620px) {
+    .nav_list {
+      font-size: 15px;
+    }
+  }
+  #hm:hover{
+    color: white;
+  }
+  #hm{
+    text-decoration: none;
+    color: rgb(21, 118, 151);
+    display: inline-flex; 
+    width: 50%; 
+    height: 100%;
+    font-family: 'poppins';
+  }
+  .nav_list:hover{
+      background-color: rgb(21, 118, 151);
+      color: white;
+      border-radius: 5px;
+  }
+  .ico{
+    margin: 0 5% 0 3%;
+  }
+  .ico:hover{
+    color: aliceblue;
+  }

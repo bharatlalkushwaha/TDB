@@ -1,0 +1,53 @@
+{/*.Camera_header_vs{
+    position: relative;
+    margin: 10px 0 0 0;
+    height: 800px;
+    background-color: #fff;
+    left: 17.5%;
+    margin-top: 10px;
+    display: inline-flex;
+    width: 80.5%;
+    right: 1%;
+    border-radius: 10px;  
+  }*/}
+  .my-custom-scrollbar {
+      margin: 10px 0 5px 10px;
+      font-size: 15px;
+      width: 100%;
+      
+      position: relative;
+      height: 48rem;
+      display: flex;
+     
+    
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    
+    }
+    .table_head{
+        color: #fff;
+        background:#fff;
+        margin-left: 17%;
+        margin-top: 20px;
+        padding: 10px;
+        width: 82%;
+        border-radius: 10px;
+     
+    }
+    img{
+      cursor: pointer;
+    }
+    .zoom {
+      padding: 5px;
+      transition: transform .3s;
+      width: 200px;
+      height: 130px;
+      margin: 0 auto;
+    }
+    .zoom:hover {
+      transform: scale(3.5);
+      margin-top: 50px; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    

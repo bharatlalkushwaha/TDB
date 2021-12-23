@@ -1,0 +1,131 @@
+.camset_header{
+    position: relative;
+    margin: 10px 0 0 0;
+    height: 800px;
+    background-color: #fff;
+    left: 17.5%;
+    margin-top: 10px;
+    width: 80.5%;
+    right: 1%;
+    border-radius: 10px; 
+
+}
+#heading hr{
+    margin-left: 300px;
+    border: 5px;
+}
+
+#btn1_line{
+    display: flex;
+    text-align: center;
+}
+#btn1{
+    font-size: larger;
+    width: 35%;
+    height: 3rem;
+    padding: auto;
+    margin: 40px 0 0 630px;
+    box-shadow: 0 4px 6px 0px black;
+    font-family: 'poppins';
+}
+#btn2{
+    font-size: larger;
+    width: 15%;
+    height: 3rem;
+    margin: 40px 0 0 120px;
+    box-shadow: 0 3px 5px 0px black;
+    font-family: 'poppins';
+}
+#bio, .bio{
+    margin: 0 25px 0 5px;
+    color: rgb(21, 118, 151);
+
+}
+.icon_delete{
+    margin: 0 7px 0 5px;
+    color: rgb(245, 41, 41);
+}
+.rtsp_content{
+    /* display:inline-block; */
+    display: flex;
+    flex-direction: column;
+}
+
+.input1{
+    font-size: 20px;
+    margin: 40px 0 0 18px;
+    padding-right: 230px;
+    border-radius: 5px;
+}
+.input_head{
+    padding-top: 10px;
+    margin-left: 3vw;
+    display: inline-flex;
+}
+::placeholder{
+    padding: 50px;
+    font-weight: bold;
+    font-family: 'poppins';   
+}
+#btn3{
+    font-size: 17PX;
+    width: 24%;
+    height: 3rem;
+    margin: 40px 0 0 20px;
+    box-shadow: 0 3px 5px 0px black;
+    font-family: 'poppins';
+    
+}
+.permit_head{
+      margin: 0 0 0 70px;
+}
+.permit{
+    font-weight: bold;
+    font-family: 'poppins';
+}
+.form-check{
+    margin: 20px 0 0 30px;
+    
+}
+.inline{
+   /* display: inline-flex;   */
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 5vw;
+}
+li{
+  cursor: pointer;
+  padding: 8px;  
+  display: flex;
+}
+ol{
+    overflow-y: scroll;
+}
+
+.cam_addition{
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-between; */
+    /* justify-content: space-between; */
+    
+}
+
+.cam_function{
+    margin-left: 1%;
+    margin-top: 8vh;
+}
+.detection{
+    display: inline-flex;
+}
+.alert_Camera1{
+    display: inline-flex;
+}
+
+    
+
+
+
+
+

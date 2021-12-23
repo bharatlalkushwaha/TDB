@@ -1,0 +1,60 @@
+.user_head{
+    width: 1300px;
+    height: 550px;
+    background-color: #fff;
+    margin:100px 0 0 400px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.form-contain{
+    display: inline-flex;
+    margin: 50px;
+}
+.row_1{
+    padding: 10px;
+}
+.inputadd{
+    margin: 10px;
+    font-size: 20px;
+    margin: 30px 50px 0 0px;
+    border-radius: 5px;
+}
+#inputaddsel{
+    margin: 27px 50px 0 0px;
+    font-size: 20px;
+    width: 18rem;
+    height: 2.3rem;
+    padding: 6px;
+    background-color: white;
+    border-radius: 5px;
+}
+.name{
+    font-weight: bold;
+    font-family: 'poppins';
+}
+.btn_title{
+    display: inline-flex;
+    margin: 130px 0 0 600px;
+}
+.btn_upload{
+    font-size: larger;
+    width: 20rem;
+    height: 3.5rem;
+    margin-left: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px  black;
+    font-family: 'poppins';
+    border-radius: 5px;
+    border: none;
+}
+.btn_reg{
+    font-size: larger;
+    width: 10rem;
+    height: 3.5rem;
+    margin-left: 40px;
+    background-color: white;
+    box-shadow: 0 4px 8px  black;
+    font-family: 'poppins';
+    border-radius: 5px;
+    border: none;
+}
